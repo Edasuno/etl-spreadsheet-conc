@@ -1,0 +1,39 @@
+# Datasets
+*.csv
+*.xlsx
+*.xls
+*.json
+*.tsv
+
+# Secrets
+.env
+.env.*
+!.env.example
+secrets.*
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Builds
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -11,8 +11,6 @@ Args: input_path (Str): Path folder
 return: list: DataFrame List structure
 """
 
-path = "data/input" #Glob Read path
-
 def raw_data_extract(path: str) -> List[pd.DataFrame]:
     total_files = glob.glob(os.path.join(path, "*.xlsx"))
 

@@ -2,7 +2,7 @@
 
 ## Function action
 
-My Function `raw_data_extract()` function reads Excel files from a specified directory and returns their contents as a list of pandas DataFrames.
+My Function `raw_data_extract()`  reads Excel files from a specified directory and returns their contents as a list of pandas DataFrames.
 
 The function specifies the path for the Glob library to search for all .xlsx files.
 
